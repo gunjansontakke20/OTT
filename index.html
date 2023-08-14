@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: century;
+        }
+        body{
+            background-color: black; 
+            background-attachment: fixed;
+        }
+    
+        ul{
+           list-style-type: none;
+           margin: 0px;
+           padding: 0px;
+           overflow: hidden;
+           margin-left: 465px;
+             }
+             li{
+                float: left;
+             }
+         li a{
+            display: block;
+            color: wheat;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+         }    
+
+        /* ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 30px;
+            display: flex;
+
+        }
+        ul a{
+            text-decoration: none;
+            color:wheat;
+            padding: 5px 45px;
+            border: 1px solid transparent;
+            transition: 2s ease;
+            padding-bottom: 15px;
+        } */
+        ul li a:hover{
+            background-color: white;
+            color: black;
+            padding-top: 15px;
+            margin-right: 5px;
+
+        }
+        .logo img{
+            float: left;
+            height: auto;
+            width: 80px;
+            margin-left: 15px;
+            /* border-radius: 100px; */
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+        .carousel-inner img{
+            height: 500px;
+            width: 100%;
+            position: relative;
+            /* left: 130px;
+             top:30px;
+            bottom: 330px; */
+        }
+        .carousel-control-prev-icon{
+            position: relative;
+            left:100px;
+            top:80px;
+        }
+        .carousel-control-next-icon{
+            position: relative;
+            right:100px;
+            top:80px;
+        }
+        .row_poster{
+            display: flex;
+            /* padding-right: 30px; */
+            position: relative;
+
+        }
+        .large_poster{
+            padding-right: 9px;
+            border-radius: 18px;
+            height: 150px;
+            width: 270px;
+        }
+        .large_poster:hover{
+            transform: scale(1.05);
+        }
+        .row{
+            padding-top: 27px;
+            padding-bottom: 15px;
+        }
+        h2{
+            color: aliceblue;
+        }
+        .fa {
+            /* padding: 10px; */
+            font-size: 30px;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            /* margin: 19px px; */
+            /* border-radius: 80px; */
+            /* right: 1110px; */
+            padding-top: 9px;
+        }
+
+       .fa:hover {
+           opacity: 0.7;
+        }
+
+      .fa-facebook {
+          background: #3B5998;
+          color: white;
+          /* margin: 10px; */
+         }
+     .fa-twitter{ 
+          background: #55ACEE;  
+          color: white;  
+        }
+     .fa-google{
+            background:red;  
+            color: white;  
+            /* margin: 10px;
+            text-align: center; */
+        }
+        
+
+        
+    
+</style>
+   
+</head>
+<body style="background: black">
+     <header>
+        <div class="logo">
+            <img src="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940">
+        </div>
+
+    <nav class="nav">
+           
+            <ul>
+                <li><a href="#carouselExampleFade">Home</a></li>
+                <li><a href="#Frequent">Frequent</a></li>
+                <li><a href="#top">Top Rated</a></li>
+                <li><a href="#Action">Action Movies</a></li>
+                <li><a href="#">favourite</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#sign">Sing In/Sing Up</a></li>
+            </ul>
+    </nav>
+
+      
+        <!-- Home Start -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="L1.webp" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="l4.webp" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="l3.webp" class="d-block " alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+     
+
+        <!-- home end -->
+        <!-- Frequently start-->
+        <div>
+        <div class="row" id="Frequent">
+            <h2>Frequent Watched</h2>
+            <div class="row_poster">
+                <img src="img10.jpg" alt="" class="large_poster" >
+                <img src="img11.jpg" alt="" class="large_poster">
+                <img src="img13.jpg" alt="" class="large_poster">
+                <img src="img14.jpg" alt="" class="large_poster">
+                <img src="img15.webp" alt=""class="large_poster">
+                <img src="img16.jpg" alt="" class="large_poster">
+                <img src="img17.jpg" alt="" class="large_poster">
+                <img src="img18.jpg" alt="" class="large_poster">
+            </div>
+        </div>
+        <!-- Frequently end -->
+        <!-- Top Rated -->
+        <div class="row" id="top">
+        <h2>Top Rated</h2>
+        <div class="row_poster">
+            <img src="top1.jpg" alt="" class="large_poster">
+            <img src="top2.jpg" alt="" class="large_poster">
+            <img src="top3.jpg" alt="" class="large_poster">
+            <img src="top4.jpg" alt="" class="large_poster">
+            <img src="top5.jpg" alt="" class="large_poster">
+        </div><br><br>
+         <!-- action movies -->
+        <div class="row" id="Action">
+        <h2>Action Movies</h2>
+        <div class="row_poster">
+            <img src="img10.jpg" alt="" class="large_poster">
+            <img src="img17.jpg" alt="" class="large_poster">
+            <img src="img18.jpg" alt="" class="large_poster">
+            <img src="img9.jpg" alt="" class="large_poster">
+            <img src="img14.jpg" alt="" class="large_poster">
+        </div>
+        </div>
+        <div id="about">
+            <h2>About us</h2>
+            <p><a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"> </a>
+                <a href="#" class="fa fa-google"> </a> </p>
+        </div>
+        <!-- <button class="open-button" onclick="openForm()"></button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" class="btn">Login</button>
+              <button type="button" class="btn cancel" onclick="close()">Close</button>
+            </form>
+          </div>
+          <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function close() {
+              document.getElementById("myForm").style.display = "none";
+            }
+            </script> -->
+
+</header>
+</body>
+</html>
